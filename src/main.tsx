@@ -11,17 +11,17 @@ import AddCarSteps from "./Components/AddCarSteps";
 import FooterDivider from "./Components/FooterDivider"
 createRoot(document.getElementById("root")!).render(
   <StrictMode >
-       <div className="min-h-screen bg-white text-gray-900 flex flex-col">
+    <div className="min-h-screen bg-white text-gray-900 flex flex-col">
       <Header />
       <main className="flex-1">
         <Hero />
-        <HeroBanner/>
-        <FeatureCard/>
-        <Divider/>
-        <AddCarSteps/>
+        <HeroBanner />
+        <FeatureCard />
+        <Divider />
+        <AddCarSteps />
       </main>
-      <FooterDivider/>
-      <Footer  />
+      <FooterDivider />
+      <Footer />
     </div>
   </StrictMode>
 );

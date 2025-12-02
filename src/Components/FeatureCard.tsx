@@ -1,6 +1,6 @@
 import carPhoto from "../assets/CarCard.png";
 import carPhoto2 from "../assets/CarCard2.png";
-import Card from "../assets/FeaturedCard.png";
+import CarPhoto3 from "../assets/CardCard3.png";
 import { FadeInOnScroll } from "./FadeInOnScroll";
 
 export default function FeatureCard() {
@@ -43,13 +43,13 @@ export default function FeatureCard() {
               />
               <div className="relative p-8">
                 <h3
-                  className="text-3xl font-bold mb-4"
+                  className="text-3xl font-bold mb-4 text-left"
                   style={{ fontFamily: "Gotham, system-ui, sans-serif" }}
                 >
                   Sürət
                 </h3>
                 <p
-                  className="text-lg"
+                  className="text-lg text-left"
                   style={{
                     fontFamily:
                       "Menlo, ui-monospace, SFMono-Regular, monospace",
@@ -71,13 +71,13 @@ export default function FeatureCard() {
               />
               <div className="relative p-8">
                 <h3
-                  className="text-3xl font-bold mb-4"
+                  className="text-3xl font-bold mb-4 text-left"
                   style={{ fontFamily: "Gotham, system-ui, sans-serif" }}
                 >
                   Rahatlıq
                 </h3>
                 <p
-                  className="text-lg"
+                  className="text-lg text-left"
                   style={{
                     fontFamily:
                       "Menlo, ui-monospace, SFMono-Regular, monospace",
@@ -93,10 +93,19 @@ export default function FeatureCard() {
           <FadeInOnScroll delay={0.3}>
             <div className="relative rounded-xl overflow-hidden bg-black text-white h-[380px] md:h-[420px]">
               <img
-                src={Card}
+                src={CarPhoto3}
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover"
               />
+                <div className="relative p-8">
+                <h3
+                  className="text-3xl font-bold mb-4 text-left" 
+                  style={{ fontFamily: "Gotham, system-ui, sans-serif" }}
+                >
+                  Birbaşa <br/>Əlaqə
+                </h3>
+               
+              </div>
             </div>
           </FadeInOnScroll>
 

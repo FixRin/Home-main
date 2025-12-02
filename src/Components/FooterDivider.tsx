@@ -4,9 +4,9 @@ export default function Hero() {
     <section className="w-full relative h-[533px]  mx-auto mt-12">
       {/* Background image */}
       <div
-       className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `url(${bgimage})`, 
+          backgroundImage: `url(${bgimage})`,
         }}
       ></div>
 
@@ -19,7 +19,7 @@ export default function Hero() {
           className="text-white text-4xl md:text-6xl font-bold"
           style={{ fontFamily: "Gotham, system-ui, sans-serif" }}
         >
-          Avtomobil icarəsi heç vaxt bu <br/> qədər asan olmamışdı.
+          Avtomobil icarəsi heç vaxt bu <br /> qədər asan olmamışdı.
         </h1>
 
         <p
@@ -28,11 +28,11 @@ export default function Hero() {
             fontFamily: "Menlo, ui-monospace, SFMono-Regular, monospace",
           }}
         >
-          Yeni tətbiqimizi yükləyin, saniyələr ərzində yüzlərlə avtomobil <br/> arasından seçim edin və dərhal yola düşün.
+          Yeni tətbiqimizi yükləyin, saniyələr ərzində yüzlərlə avtomobil <br /> arasından seçim edin və dərhal yola düşün.
         </p>
       </div>
 
-       
-    </section>  
+
+    </section>
   );
 }
